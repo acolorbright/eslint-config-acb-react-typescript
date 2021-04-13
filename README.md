@@ -20,7 +20,7 @@ The plugin requires `eslint` and the following other packages:
 
 ```shell
 $ npm install --save-dev \
-  'acolorbright/eslint-config-acb-react-typescript#v1.0.0' \
+  'acolorbright/eslint-config-acb-react-typescript#v1.0.1' \
   'acolorbright/eslint-config-acb#v4.0.2' \
   eslint@6.x \
   eslint-plugin-extra-rules@^0.8 \
