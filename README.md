@@ -30,7 +30,7 @@ $ npm install --save-dev \
   eslint-plugin-react@7.x \
   eslint-plugin-react-hooks@1.x \
   prettier@2.x \
-  typescript@4.x
+  typescript@3.x
 ```
 
 Then add `"extends": "acb-react-typescript"` to your `.eslintrc` file.
