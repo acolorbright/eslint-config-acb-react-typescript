@@ -18,7 +18,7 @@ module.exports = {
         extensions: ['.tsx'],
       },
     ],
-    'react/jsx-fragments': ['error', 'element'],
+    'react/jsx-fragments': 0,
     'react/jsx-one-expression-per-line': 0,
     'react/jsx-props-no-spreading': 0,
     'react/jsx-sort-props': 'error',
