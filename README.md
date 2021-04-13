@@ -20,12 +20,13 @@ The plugin requires `eslint` and the following other packages:
 
 ```shell
 $ npm install --save-dev \
+  'acolorbright/eslint-config-acb-react-typescript#v1.0.0' \
   'acolorbright/eslint-config-acb#v4.0.2' \
   eslint@6.x \
   eslint-plugin-extra-rules@^0.8 \
   eslint-plugin-import@2.x \
   eslint-plugin-jsx-a11y@6.x \
-  eslint-plugin-preetier@3.x \
+  eslint-plugin-prettier@3.x \
   eslint-plugin-react@7.x \
   eslint-plugin-react-hooks@1.x \
   prettier@2.x \
