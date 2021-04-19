@@ -1,10 +1,14 @@
 // eslint-disable-next-line @typescript-eslint/no-var-requires
 const fs = require('fs')
 
-const folders = fs
-  .readdirSync('src', { withFileTypes: true })
-  .filter((dirent) => dirent.isDirectory())
-  .map((dirent) => dirent.name)
+const src = 'src'
+
+const folders = fs.existsSync(src)
+  ? fs
+      .readdirSync(src, { withFileTypes: true })
+      .filter((dirent) => dirent.isDirectory())
+      .map((dirent) => dirent.name)
+  : []
 
 module.exports = {
   plugins: ['simple-import-sort'],
